@@ -4,6 +4,8 @@
     "scripts": {
         "compile": "truffle compile",
         "migrate": "truffle migrate",
-        "test": "truffle test"
+        "test": "truffle test",
+        "copy:0": "bash -c \"cp ./target/Auth.json ../server/src/contract/Auth.json\"",
+        "copy:1": "bash -c \"cp ./target/Auth.json ../../../tauri/auth_dapp/src/contract/Auth.json\""
     }
 }
