@@ -66,7 +66,7 @@ pnpm start
 
 ```bash
 cd auth_dapp
-pnpm dev
+pnpm tauri dev
 ```
 
 ---
